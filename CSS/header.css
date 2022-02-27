@@ -1,0 +1,94 @@
+header{
+  position: relative;
+  text-align: center;
+}
+
+#home.container{
+  min-height: 100vh;
+  margin-top: 60px;
+  
+}
+
+#d-menu.dropdown-menu{
+  background-color: rgb(228, 150, 48);
+
+  
+}
+.dropdown-menu >  a:hover {
+  background-color: rgb(185, 111, 14);
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.h1{
+  color: black;
+}
+
+img {
+  width: 100%; /* You can set the dimensions to whatever you want */
+  height: 40%;
+  object-fit: scale-down;
+}
+
+body { 
+  background: rgb(238, 175, 92) !important; 
+}
+
+.container:after{
+content: "";
+display: block;
+height: 75px;
+
+}
+nav{
+ background-color: rgb(228, 150, 48) ;
+
+}
+.btn{
+  background-color: rgb(202, 129, 33);
+}
+
+
+footer { 
+  background-color: rgb(228, 150, 48) ;
+  flex: 0 0 auto;
+  display: flex;
+  color: #ccc;
+  margin-top: 1em;
+  padding: 1em;
+  width: 100%;
+  justify-content: center;
+}
+
+footer i {
+  padding: 1em;
+}
